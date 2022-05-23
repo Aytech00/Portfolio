@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika', sans-serif;
+}
+
+/* Logo */
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+/* contact button */
+
+/* #contact{
+    border: 1px solid white;
+    color: blue;
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 10px;
+    font-size: 16px;
+} */
+
+/* #contact:hover{
+    
+    transition: 1ms;
+ 
+} */
+
+/* Header */
+
+#banner{
+    
+    background-color: #000;
+    padding: 10% 8%;
+}
+
+.column {
+    padding: 6%;
+}
+
+.heading{
+    padding-bottom: 20px;
+    font-size: 70px;
+    color: white;
+    /* font-family:'Dancing Script', cursive; */
+}
+
+.subheading{
+    padding-bottom: 6px;
+    color: wheat;
+    font-size: 25px;
+    
+
+}
+.text{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 20px;
+    text-align: left;
+    
+
+}
+
+.banner_image{
+    width: 95%;
+    height: 90%;
+    border-radius: 30px;
+}
+.button{
+    padding: 2% 6%;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 25px;
+    font-family: 'Signika', sans-serif;
+    
+}
+        
+.button:hover{
+    background-color: wheat;
+    transition-duration: 1s;
+}
+
+/* About us section */
+
+#secondsec{
+    padding: 6% 15%;
+    text-align: center;
+    
+}
+.title{
+    font-size: 40px;
+    /* font-family:'Dancing Script', cursive; */
+    text-shadow: 2px 2px 3px wheat;
+    font-weight: bold;
+
+}
+p{
+    font-size: 16px;
+    text-align: center;
+
+}
+
+/* Technologies secction */
+#Techstack{
+    padding: 9% 6%;
+    text-align: center;
+    background-color: rgb(251, 251, 251);
+}
+.tech-stack-subtitle{
+    margin-bottom: 10%;
+    font-size: 40px;
+    color: black;
+    font-weight:bold ;
+    text-shadow: 2px 2px 3px wheat;
+    
+}
+.techimg{
+    width: 70%;
+    margin-bottom: 10%;
+}
+.subhead{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 16%;
+    font-weight: bold;
+}
+
+/* Portfolio */
+#thirdsec{
+    padding: 6% 7%;
+    background-color: black;
+
+}
+.thirdsechead h1{
+    text-align: center;
+    padding-bottom: 35px;
+    font-size: 70px;
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.sampleimage{
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid burlywood;
+    padding: 3px;
+}
+.portforlio{
+    text-align: center;
+    padding: 4%;
+}
+.portforlio h2{
+    color: bisque;
+    font-size: 30px;
+    padding-top: 20px;
+    
+}
+.portforlio p{
+    color: whitesmoke;
+}
+
+ #Information{
+    
+    text-align: center;
+  
+    padding:6% 6%;
+    border: 1px solid wheat;
+}
+
+.infoh1{
+    font-size: 60px;
+}
+
+.footer{
+    background-color: whitesmoke;
+    padding: 2% 3%;
+
+}
+.footer p{
+    text-align: center;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width:800px){
+    .headimg{
+      
+        display:none;
+
+    }
+
+    #banner{
+    
+        text-align: center;
+    }
+
+    .text{
+        text-align: center;
+    }
+}
