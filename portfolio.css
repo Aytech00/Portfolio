@@ -1,0 +1,85 @@
+body{
+    background-color: whitesmoke;
+    /* font-family: 'Signika', sans-serif; */
+    
+}
+
+#Portfortio-section-1{
+    text-align: center;
+    padding: 8% 10%;
+}
+
+.img-1{
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.heading-1{
+    font-size: 30px;
+   
+
+}
+
+.text-1{
+    padding: 2% 15% ;
+
+}
+
+.button-1{
+    text-decoration: none;
+    border: 1px solid red;
+    font-size: 25px;
+    color: red;
+    padding: 5px 10px;
+    
+    box-shadow: 2px 2px 3px ;
+    
+}
+
+.button-1:hover{
+    
+    transition: 2ms;
+    color: black;
+}
+
+/*  */
+
+ #Portfolio-section-2{
+    text-align: center;
+    padding: 8% 10%;
+}
+
+.img-2{
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.heading-2{
+    font-size: 30px;
+   
+
+}
+
+.text-2{
+    padding: 2% 15% ;
+
+}
+
+.button-2{
+    text-decoration: none;
+    border: 1px solid red;
+    font-size: 25px;
+    color: red;
+    padding: 5px 10px;
+
+    box-shadow: 2px 2px 3px ;
+    
+}
+
+.button-2:hover{
+    
+    transition: 2ms;
+    color: black;
+}

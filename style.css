@@ -68,17 +68,20 @@
     border-radius: 30px;
 }
 .button{
+    text-decoration: none;
     padding: 2% 6%;
-    border: 1px solid black;
+    border: 1px solid wheat;
     font-size: 20px;
     border-radius: 25px;
     font-family: 'Signika', sans-serif;
+    color: white;
     
 }
         
 .button:hover{
     background-color: wheat;
-    transition-duration: 1s;
+    transition-duration: 3ms;
+    color: black;
 }
 
 /* About us section */
@@ -170,7 +173,7 @@ p{
 }
 
 .infoh1{
-    font-size: 60px;
+    font-size: 35px;
 }
 
 .footer{
