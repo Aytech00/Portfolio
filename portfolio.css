@@ -4,9 +4,14 @@ body{
     
 }
 
+:root{
+    --white:white;
+}
+
 #Portfortio-section-1{
     text-align: center;
     padding: 8% 10%;
+    
 }
 
 .img-1{
@@ -64,6 +69,7 @@ body{
 
 .text-2{
     padding: 2% 15% ;
+    /* color: var(--white); */
 
 }
 

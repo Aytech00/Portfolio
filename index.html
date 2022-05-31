@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Signika:wght@300&display=swap"
     rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/0fed1877d2.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
@@ -17,7 +18,7 @@
 <body>
   <!-- Navigation-->
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-danger bg-danger">
     <div class="container">
       <a class="navbar-brand" href="">Aytechng</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
@@ -28,14 +29,14 @@
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link menu-item" href="index.html">Home</a>
 
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Portfolio.html">My portfolio</a>
+            <a class="nav-link menu-item" href="Portfolio.html">My portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Contact</a>
+            <a class="nav-link menu-item" href="">Contact</a>
           </li>
 
 
@@ -51,8 +52,11 @@
   <section id="banner">
     <div class="row">
       <div class="column col-md-6">
-        <h1 class="heading">Hi there!</h1>
-        <h3 class="subheading">Need a Developer?</h3>
+        <h1 class="heading">HI THERE!</h1>
+        <h4 class="subheading">
+          Searching for <span class="subheading-span-color"> a developer </span>for your project?
+          
+          </h4>
         <p class="text">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
           accusantium possimus ipsum rem doloremque eius exercitationem iste
@@ -62,8 +66,9 @@
         <!-- <button class="button"> View Portfolio </button> -->
         <a class="button" href="Portfolio.html">Check My Portfolio</a>
       </div>
-      <div class="headimg col-md-6">
-        <img class="banner_image" src="images/mars-IgUR1iX0mqM-unsplash-removebg-preview.png" alt="" />
+      <div class="head-img col-md-6">
+        <img class="banner_image"
+          src="images/newww7xm.xyz723590.jpg" alt="" />
       </div>
     </div>
   </section>
@@ -71,19 +76,42 @@
   <!-- About section -->
 
   <section id="secondsec">
-    <h1 class="title">About Me</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-      laudantium, in esse eligendi blanditiis dignissimos reiciendis quod odit
-      nobis consequatur provident alias? Nesciunt similique a velit quia!
-      Dolor, nam id!
-    </p>
+   
+      <h1 class="title">ABOUT ME</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="img-fluid my-picture" src="/images/nubelson-fernandes-Bv2FCJoh8XM-unsplash.jpeg" alt="">
+
+        </div>
+
+        <div class="col-lg-6 about-column-two">
+          <p id="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eos veniam id reprehenderit nam ullam facilis
+            quod, sapiente, esse quis rem? Tenetur ipsa praesentium odio, voluptatem iure minus eum aliquid.
+            Lorem ipsum dolor sit amet consectetur adipis.
+          </p>
+          <p id="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eos veniam id reprehenderit nam ullam facilis
+            quod, sapiente, esse quis rem? Tenetur ipsa praesentium odioliquiddolor sit amet consectetur adipis..
+
+          </p>
+          <div class="button-container">
+            
+          <a id="Resume-button" href=""> View Resume</a>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    
   </section>
 
   <!-- Techstack section -->
 
   <section id="Techstack">
-    <h3 class="tech-stack-subtitle">Tech Stack</h3>
+    <h3 class="tech-stack-subtitle">TECHSTACK</h3>
     <div class="row">
       <div class="col-lg-3">
 
@@ -110,9 +138,24 @@
 
 
   <section id="Information">
-    <h1 class="infoh1">Contact Us</h1>
-    <p>Tel: +43674890667</p>
-    <p>Eamil: Info@Aytechng.com</p>
+    
+    <div class=" border bg-light p-5">
+      <div class="info-title">
+        <h1>Contact me now</h1>
+      </div>
+     <address>
+      <i id="icon-1" class="fa-solid fa-phone"></i>
+      <a class="tel" href="">Tel:2348149684195</a><br>
+     </address>
+     <address>
+      <i id="icon-2" class="fa-solid fa-envelope"></i>
+      <a class="email" href="Mailto:ayokunumitoluwani00@gmail.com">Send me an Email</a>
+
+     </address>
+     
+     
+    </div>
+    
   </section>
 
   <!-- Footer section -->
