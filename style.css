@@ -270,8 +270,12 @@
         margin-bottom: 15%;
     }
 
+    .title{
+        margin-bottom: 15%;
+    }
+
     .my-picture{
-        width: 97%;
+        width: 100%;
         height: 84%;
     
     }
