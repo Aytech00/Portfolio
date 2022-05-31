@@ -116,7 +116,6 @@
 .my-picture{
     width: 90%;
     height: 95%;
-    
     border-radius: 5px;
     box-shadow: 5px 5px 5px;
    
@@ -267,5 +266,9 @@
 
     #secondsec{
         text-align: center;
+    }
+
+    .my-picture{
+        height: 75%;
     }
 }
