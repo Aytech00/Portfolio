@@ -31,7 +31,7 @@
 
 
 
-#banner{
+#hero{
     
     background-image: linear-gradient( rgba(3,4,3,0.8), rgba(3,4,3,0.8)), url(/images/pexels-lukas-574080.jpeg);
     background-position: center;
@@ -39,6 +39,11 @@
     padding: 15% 8%;
     text-align: center;
 }
+
+.sub-hero{
+    padding: 10%;
+}
+
 
 
 .heading{
@@ -185,32 +190,11 @@
 
 }
 
-/* .sampleimage{
-    width: 100%;
-    border-radius: 25px;
-    border: 1px solid red;
-    padding: 3px;
-}
-.portforlio{
-    text-align: center;
-    padding: 4%;
-}
-.portforlio h2{
-    color: bisque;
-    font-size: 30px;
-    padding-top: 20px;
-    
-}
-.portforlio p{
-    color: whitesmoke;
-} */
 
  #Information{
     
     text-align: center;
     padding:6% 6%;
-
-    
     
 }
 
@@ -249,12 +233,12 @@
     #banner{
     
         text-align: center;
-        margin-bottom: 15%;
+        
         
        
     }
     .subheading{
-        margin-bottom: 8%;
+        margin-bottom: 15%;
     }
 
 

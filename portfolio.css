@@ -10,7 +10,7 @@ body{
 
 #Portfortio-section-1{
     text-align: center;
-    padding: 15% 5%;
+    padding: 10% 5%;
     
 }
 
@@ -33,9 +33,9 @@ body{
 
 .button-1{
     text-decoration: none;
-    border: 1px solid red;
+    border: 1px solid purple;
     font-size: 25px;
-    color: red;
+    color: purple;
     padding: 5px 10px;
     
     box-shadow: 2px 2px 3px ;
@@ -75,9 +75,9 @@ body{
 
 .button-2{
     text-decoration: none;
-    border: 1px solid red;
+    border: 1px solid purple;
     font-size: 25px;
-    color: red;
+    color: purple;
     padding: 5px 10px;
 
     box-shadow: 2px 2px 3px ;
@@ -88,4 +88,95 @@ body{
     
     transition: 2ms;
     color: black;
+}
+
+
+#Portfolio-section-3{
+    text-align: center;
+    padding: 8% 5%;
+}
+
+.img-3{
+    width: 70%;
+    
+    margin-bottom: 20px;
+}
+
+.heading-3{
+    font-size: 30px;
+   
+
+}
+
+.text-3{
+    padding: 2% ;
+    /* color: var(--white); */
+
+}
+
+.button-3{
+    text-decoration: none;
+    border: 1px solid purple;
+    font-size: 25px;
+    color: purple;
+    padding: 5px 10px;
+
+    box-shadow: 2px 2px 3px ;
+    
+}
+
+.button-3:hover{
+    
+    transition: 2ms;
+    color: black;
+}
+
+/*  */
+
+#Portfolio-section-4{
+    text-align: center;
+    padding: 8% 5%;
+}
+
+.img-4{
+    width: 70%;
+    
+    margin-bottom: 20px;
+}
+
+.heading-4{
+    font-size: 30px;
+   
+
+}
+
+.text-4{
+    padding: 2% ;
+    /* color: var(--white); */
+
+}
+
+.button-4{
+    text-decoration: none;
+    border: 1px solid purple;
+    font-size: 25px;
+    color: purple;
+    padding: 5px 10px;
+
+    box-shadow: 2px 2px 3px ;
+    
+}
+
+.button-4:hover{
+    
+    transition: 2ms;
+    color: black;
+}
+
+.back-link-button{
+    text-decoration: none;
+    color: purple;
+    margin-bottom: 5%;
+    
+    text-align: center;
 }
