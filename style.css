@@ -81,7 +81,7 @@
 .button{
     text-decoration: none;
     padding: 4px 13px;
-    border: 2px solid var(--white);
+    border: 1px solid var(--white);
     box-shadow: 2px 2px 3px var(--deeppurple);
     color: var(--white);
     background-color: var(--purple);
@@ -230,9 +230,10 @@
 @media screen and (max-width:800px){
    
 
-    #banner{
+    #hero{
     
         text-align: center;
+        margin-bottom: 18%;
         
         
        
@@ -249,7 +250,7 @@
     }
 
     .title{
-        margin-bottom: 15%;
+        margin-bottom: 12%;
     }
 
     .my-picture{
