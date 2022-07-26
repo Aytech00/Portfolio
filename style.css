@@ -11,6 +11,7 @@
     --red:red;
     --purple: #673AB7;
     --deeppurple:#512DA8;
+    --skyblue: #00D7FF;
 }
 
 .menu-item{
@@ -33,11 +34,11 @@
 
 #hero{
     
-    background-image: linear-gradient( rgba(3,4,3,0.8), rgba(3,4,3,0.8)), url(/images/pexels-lukas-574080.jpeg);
-    background-position: center;
-    background-size: cover;
-    padding: 15% 8%;
+   
+    padding: 7% 8%;
     text-align: center;
+    background-image: linear-gradient( #00D7FF, #9DD6DF, #72FFFF); 
+    
 }
 
 .sub-hero{
@@ -56,10 +57,11 @@
 
 .subheading{
     
-    color: var(--white);
+    color: #F0EBE3;
     font-size: 23px;
     font-weight: bold;
     margin-bottom: 6%;
+
 
     
 
@@ -70,7 +72,7 @@
 }
 
 .text{
-    color: var(--black);
+    color: var(--purple);
     font-size: 15px;
     line-height: 2;
     margin-bottom: 4%;   
@@ -80,12 +82,12 @@
 
 .button{
     text-decoration: none;
-    padding: 4px 13px;
+    padding: 5px 15px;
     border: 1px solid var(--white);
-    box-shadow: 2px 2px 3px var(--deeppurple);
+    box-shadow: 2px 2px 3px var();
     color: var(--white);
-    background-color: var(--purple);
-    font-size: 20;
+    background-color: #9DD6DF;
+    font-size: 22;
     border-radius: 4px;
     
     
@@ -95,16 +97,15 @@
     /* background-color:; */
     transition-duration: 3ms;
     color: var(--white);
-    background-color: var(--deeppurple);
+    background-color: #9acbd3;
     transition: 0.1s;
     
 }
 
-/* About us section */
+/* About me section */
 
 #secondsec{
     padding: 5% 10%;
-   
     text-align:start;
  
     
@@ -120,9 +121,12 @@
 
 .my-picture{
     width: 90%;
-    height: 95%;
-    border-radius: 5px;
-    box-shadow: 3px 3px 4px;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #9DD6DF  ;
+    padding: 1px;
+    border-style: dotted;
+    
    
 
 }
@@ -138,7 +142,7 @@
 }
 
 #Resume-button{
-    border: 2px solid var(--purple);
+    border: 2px solid #0096FF;
     border-radius: 3px;
     text-decoration: none;
     padding: 6px 15px;
@@ -159,13 +163,13 @@
 .tech-stack-subtitle{
     margin-bottom: 10%;
     font-size: 35px;
-    color: black;
+    color: #9DD6DF;
     font-weight:bold ;
     
     
 }
 .techimg{
-    width: 70%;
+    width: 50%;
     margin-bottom: 10%;
 }
 .subhead{
@@ -201,18 +205,21 @@
 .info-title{
     font-size: 35px;
    margin-bottom: 15px;
+   color: #9DD6DF;
+
 }
 
 
-.tel{
+/* .tel{
     text-decoration: none;
     color: var(--deeppurple);
 
-}
+} */
 
 .email{
     text-decoration: none;
-    color: var(--deeppurple);
+    color: black;
+    font-size: 15px;
 }
 .footer{
     background-color: whitesmoke;
@@ -234,6 +241,7 @@
     
         text-align: center;
         margin-bottom: 18%;
+        padding: 15% 0% ;
         
         
        
